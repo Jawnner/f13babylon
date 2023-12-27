@@ -56,8 +56,8 @@
 /obj/item/radio/headset/headset_followers/virt
 	name = "Followers VR Radio"
 
-/obj/item/radio/headset/headset_den/virt
-	name = "Den VR Radio"
+/obj/item/radio/headset/headset_enclave/virt
+	name = "Enclave VR Radio"
 
 /obj/item/radio/headset/headset_bos/virt/Initialize(mapload)
 	. = ..()
@@ -67,7 +67,7 @@
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
 
-/obj/item/radio/headset/headset_den/virt/Initialize(mapload)
+/obj/item/radio/headset/headset_enclave/virt/Initialize(mapload)
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
 
@@ -86,9 +86,9 @@
 	ears =		/obj/item/radio/headset/headset_followers/virt
 	starting_funds = 0
 
-/datum/outfit/vr/den
-	name = "Den"
-	ears =		/obj/item/radio/headset/headset_den/virt
+/datum/outfit/vr/enclave
+	name = "Enclave"
+	ears =		/obj/item/radio/headset/headset_enclave/virt
 	starting_funds = 0
 
 /datum/outfit/vr/bos/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source)
@@ -112,11 +112,14 @@
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, VIRTUAL_REALITY_TRAIT)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, VIRTUAL_REALITY_TRAIT)
 
-/datum/outfit/vr/den/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source)
+/datum/outfit/vr/enclave/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source)
 	. = ..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_GENERIC, VIRTUAL_REALITY_TRAIT)
-	ADD_TRAIT(H, TRAIT_SURGERY_HIGH, VIRTUAL_REALITY_TRAIT)
-	ADD_TRAIT(H, TRAIT_CHEMWHIZ, VIRTUAL_REALITY_TRAIT)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, VIRTUAL_REALITY_TRAIT)
+	ADD_TRAIT(H, TRAIT_GENERIC, VIRTUAL_REALITY_TRAIT)
+	ADD_TRAIT(H, TRAIT_PA_WEAR, VIRTUAL_REALITY_TRAIT)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/boscombatarmor)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/boscombathelmet)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/boscombatarmormk2)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/boscombathelmetmk2)

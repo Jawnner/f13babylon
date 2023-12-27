@@ -138,13 +138,16 @@
 /turf/open/floor/carpet/green,
 /area/awaymission/vr/bos/casino)
 "bt" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/twohanded/sledgehammer/supersledge,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 5
 	},
 /obj/item/melee/powered/ripper,
+/obj/item/melee/powered/ripper/prewar,
+/obj/item/melee/powered/ripper,
+/obj/item/melee/powered/ripper,
+/obj/item/melee/powered/ripper/prewar,
 /obj/item/melee/powered/ripper/prewar,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
@@ -226,14 +229,12 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 6
 	},
-/obj/item/clothing/head/helmet/f13/power_armor/t45b,
 /obj/item/clothing/head/helmet/f13/power_armor/t45d,
-/obj/item/clothing/head/helmet/f13/power_armor/t51b,
-/obj/item/clothing/head/helmet/f13/power_armor/t60,
-/obj/item/clothing/suit/armor/f13/power_armor/t45b,
 /obj/item/clothing/suit/armor/f13/power_armor/t45d,
+/obj/item/clothing/head/helmet/f13/power_armor/t51b,
+/obj/item/clothing/head/helmet/f13/power_armor/t45d,
 /obj/item/clothing/suit/armor/f13/power_armor/t51b,
-/obj/item/clothing/suit/armor/f13/power_armor/t60,
+/obj/item/clothing/suit/armor/f13/power_armor/t45d,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
 "ch" = (
@@ -278,6 +279,10 @@
 /obj/effect/holodeck_effect/machinespawner{
 	machinetype = /obj/machinery/cell_charger
 	},
+/obj/item/stock_parts/cell/bluespace,
+/obj/item/stock_parts/cell/bluespace,
+/obj/item/stock_parts/cell/bluespace,
+/obj/item/stock_parts/cell/bluespace,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/bos/programs/armory)
 "cu" = (
@@ -299,13 +304,6 @@
 	},
 /obj/item/mine/shrapnel/sting,
 /turf/open/floor/carpet/green,
-/area/awaymission/vr/bos/casino)
-"cA" = (
-/obj/item/ammo_casing/c9mm,
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
 /area/awaymission/vr/bos/casino)
 "cB" = (
 /obj/structure/junk/small/bed2,
@@ -340,6 +338,10 @@
 /obj/effect/holodeck_effect/machinespawner{
 	machinetype = /obj/machinery/cell_charger
 	},
+/obj/item/stock_parts/cell/bluespace,
+/obj/item/stock_parts/cell/bluespace,
+/obj/item/stock_parts/cell/bluespace,
+/obj/item/stock_parts/cell/bluespace,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/den/programs/armory)
 "cT" = (
@@ -401,12 +403,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/awaymission/vr/bos/enclavebunker)
-"dn" = (
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
-/area/awaymission/vr/bos/casino)
 "do" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/armor/f13/rangercombat/eliteriot{
@@ -421,15 +417,21 @@
 /turf/open/floor/pod/light,
 /area/awaymission/vr/bos/casino)
 "dr" = (
-/obj/structure/rack,
-/obj/item/clothing/under/f13/recon,
+/obj/effect/turf_decal/bot_red,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 6
 	},
-/obj/item/clothing/head/helmet/f13/power_armor/t45b,
-/obj/item/clothing/head/helmet/f13/power_armor/t45d,
-/obj/item/clothing/suit/armor/f13/power_armor/t45b,
-/obj/item/clothing/suit/armor/f13/power_armor/t45d,
+/obj/structure/rack,
+/obj/item/clothing/suit/armor/f13/power_armor/x02,
+/obj/item/clothing/suit/armor/f13/power_armor/x02,
+/obj/item/clothing/suit/armor/f13/power_armor/x02,
+/obj/item/clothing/suit/armor/f13/power_armor/x02,
+/obj/item/clothing/head/helmet/f13/power_armor/x02helmet,
+/obj/item/clothing/head/helmet/f13/power_armor/x02helmet,
+/obj/item/clothing/head/helmet/f13/power_armor/x02helmet,
+/obj/item/clothing/head/helmet/f13/power_armor/x02helmet,
+/obj/item/clothing/head/helmet/f13/power_armor/x02helmet/eastcoast,
+/obj/item/clothing/suit/armor/f13/power_armor/x02/eastcoast,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "ds" = (
@@ -437,64 +439,87 @@
 /turf/open/floor/carpet/green,
 /area/awaymission/vr/bos/casino)
 "du" = (
+/obj/effect/turf_decal/bot_red,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
 /obj/structure/rack,
-/obj/item/storage/belt/military/army,
-/obj/item/clothing/mask/gas/sechailer,
-/obj/item/clothing/shoes/combat/swat{
-	pixel_x = 7;
+/obj/item/storage/belt/military{
+	pixel_x = -7;
 	pixel_y = -9
 	},
 /obj/item/storage/belt/military{
 	pixel_x = -7;
 	pixel_y = -9
 	},
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
+/obj/item/storage/belt/military{
+	pixel_x = -7;
+	pixel_y = -9
 	},
-/obj/item/clothing/head/helmet/f13/combat/enclave,
+/obj/item/storage/belt/military{
+	pixel_x = -7;
+	pixel_y = -9
+	},
+/obj/item/storage/belt/military{
+	pixel_x = -7;
+	pixel_y = -9
+	},
+/obj/item/storage/belt/military{
+	pixel_x = -7;
+	pixel_y = -9
+	},
+/obj/item/storage/belt/military{
+	pixel_x = -7;
+	pixel_y = -9
+	},
+/obj/item/storage/belt/military/assault/enclave,
+/obj/item/storage/belt/military/assault/enclave,
+/obj/item/storage/belt/military/assault/enclave,
+/obj/item/storage/belt/military/assault/enclave,
+/obj/item/storage/belt/military/assault/enclave,
+/obj/item/storage/belt/military/assault/enclave,
+/obj/item/storage/belt/military/assault/enclave,
+/obj/item/clothing/under/f13/enclave/peacekeeper,
+/obj/item/clothing/under/f13/enclave/peacekeeper,
+/obj/item/clothing/under/f13/enclave/peacekeeper,
+/obj/item/clothing/under/f13/enclave/peacekeeper,
+/obj/item/clothing/under/f13/enclave/peacekeeper,
+/obj/item/clothing/under/f13/enclave/peacekeeper,
+/obj/item/clothing/under/f13/enclave/peacekeeper,
+/obj/item/clothing/under/f13/enclave/peacekeeper,
 /obj/item/clothing/suit/armor/f13/combat/mk2/enclave,
-/obj/item/clothing/suit/armor/f13/combat/swat,
-/obj/item/clothing/suit/armor/f13/enclave/armorvest,
-/obj/item/clothing/suit/armor/f13/kit,
-/obj/item/clothing/suit/armor/f13/leatherarmor,
-/obj/item/clothing/suit/armor/f13/leatherarmor/reinforced,
-/obj/item/clothing/suit/armor/f13/raider/badlands,
-/obj/item/clothing/suit/armor/f13/raider/blastmaster,
-/obj/item/clothing/suit/armor/f13/raider/iconoclast,
-/obj/item/clothing/suit/armor/f13/raider/painspike,
-/obj/item/clothing/suit/armor/f13/raider/raidercombat,
-/obj/item/clothing/suit/armor/f13/raider/raidermetal,
-/obj/item/clothing/suit/armor/f13/raider/rebel,
-/obj/item/clothing/suit/armor/f13/raider/sadist,
-/obj/item/clothing/suit/armor/f13/raider/supafly,
-/obj/item/clothing/suit/armor/f13/raider/yankee,
-/obj/item/clothing/suit/armor/f13/slam,
-/obj/item/clothing/suit/armor/f13/sulphitearmor,
-/obj/item/clothing/head/helmet/f13/combat/mk2/raider,
-/obj/item/clothing/head/helmet/f13/combat,
-/obj/item/clothing/head/helmet/f13/combat/mk2,
-/obj/item/clothing/head/helmet/f13/fiend,
-/obj/item/clothing/head/helmet/f13/fiend_reinforced,
-/obj/item/clothing/head/helmet/f13/khan,
-/obj/item/clothing/head/helmet/f13/khan/fullhelm,
-/obj/item/clothing/head/helmet/f13/metalmask,
-/obj/item/clothing/head/helmet/f13/metalmask/mk2,
-/obj/item/clothing/head/helmet/f13/raider/arclight,
-/obj/item/clothing/head/helmet/f13/raider/blastmaster,
-/obj/item/clothing/head/helmet/f13/raider/eyebot,
-/obj/item/clothing/head/helmet/f13/raider/psychotic,
-/obj/item/clothing/head/helmet/f13/raider/supafly,
-/obj/item/clothing/head/helmet/f13/raider/yankee,
-/obj/item/clothing/head/helmet/f13/raidercombathelmet,
-/obj/item/clothing/head/helmet/f13/raidermetal,
-/obj/item/clothing/head/helmet/f13/sulphitehelm,
-/obj/item/clothing/head/helmet/knight/f13/metal,
-/obj/item/clothing/head/helmet/knight/f13/metal/reinforced,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/gloves/f13/blacksmith,
-/obj/item/clothing/gloves/f13/leather,
-/obj/item/clothing/gloves/f13/military,
-/obj/item/clothing/gloves/f13/leather/fingerless,
+/obj/item/clothing/suit/armor/f13/combat/mk2/enclave,
+/obj/item/clothing/suit/armor/f13/combat/mk2/enclave,
+/obj/item/clothing/suit/armor/f13/combat/mk2/enclave,
+/obj/item/clothing/suit/armor/f13/combat/mk2/enclave,
+/obj/item/clothing/suit/armor/f13/combat/mk2/enclave,
+/obj/item/clothing/suit/armor/f13/combat/mk2/enclave,
+/obj/item/clothing/suit/armor/f13/combat/mk2/enclave,
+/obj/item/clothing/head/helmet/f13/combat/enclave,
+/obj/item/clothing/head/helmet/f13/combat/enclave,
+/obj/item/clothing/head/helmet/f13/combat/enclave,
+/obj/item/clothing/head/helmet/f13/combat/enclave,
+/obj/item/clothing/head/helmet/f13/combat/enclave,
+/obj/item/clothing/head/helmet/f13/combat/enclave,
+/obj/item/clothing/head/helmet/f13/combat/enclave,
+/obj/item/clothing/head/helmet/f13/combat/enclave,
+/obj/item/clothing/mask/gas/enclave,
+/obj/item/clothing/mask/gas/enclave,
+/obj/item/clothing/mask/gas/enclave,
+/obj/item/clothing/mask/gas/enclave,
+/obj/item/clothing/mask/gas/enclave,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/card/id/syndicate,
+/obj/item/card/id/syndicate,
+/obj/item/card/id/syndicate,
+/obj/item/card/id/syndicate,
+/obj/item/card/id/syndicate,
+/obj/item/card/id/syndicate,
+/obj/item/card/id/syndicate,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "dy" = (
@@ -538,24 +563,19 @@
 	},
 /area/awaymission/vr/bos/casino)
 "dS" = (
-/obj/structure/rack,
-/obj/item/clothing/suit/bomb_suit/security,
-/obj/item/clothing/head/bomb_hood/security,
+/obj/effect/turf_decal/bot_red,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 10
 	},
-/obj/item/card/id/dogtag/enclave/trooper,
-/obj/item/clothing/under/f13/agent47,
-/obj/item/clothing/under/f13/enclave/intel,
-/obj/item/clothing/under/f13/enclave/officer,
-/obj/item/clothing/under/f13/enclave/peacekeeper,
-/obj/item/clothing/under/f13/khan,
-/obj/item/clothing/under/f13/merca,
-/obj/item/clothing/under/f13/raider_leather,
-/obj/item/clothing/under/f13/roving,
-/obj/item/clothing/under/f13/rustic,
-/obj/item/clothing/under/f13/worn,
-/obj/item/clothing/shoes/f13/enclave/serviceboots,
+/obj/structure/rack,
+/obj/item/clothing/suit/armor/f13/enclave/marine,
+/obj/item/clothing/suit/armor/f13/enclave/marine,
+/obj/item/clothing/head/helmet/f13/enclave/marine,
+/obj/item/clothing/head/helmet/f13/enclave/marine,
+/obj/item/clothing/head/helmet/f13/enclave/officer,
+/obj/item/clothing/suit/armor/f13/enclavetrenchcoat,
+/obj/item/clothing/head/helmet/f13/enclave/usmcriot,
+/obj/item/clothing/suit/armor/f13/usmcriot,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "dX" = (
@@ -1055,6 +1075,12 @@
 /area/awaymission/vr/bos)
 "gN" = (
 /obj/effect/turf_decal/bot_red,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/item/minigunpackbal5mm,
+/obj/item/encminigunpack,
+/obj/structure/rack,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
 "gO" = (
@@ -1157,10 +1183,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/bluespace,
 /area/awaymission/vr/bos/deathmatch)
-"hP" = (
-/obj/effect/decal/cleanable/greenglow/radioactive,
-/turf/open/indestructible/ground/inside/subway,
-/area/awaymission/vr/bos/enclavebunker)
 "hQ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -1270,7 +1292,9 @@
 /turf/open/floor/carpet/green,
 /area/awaymission/vr/bos/casino)
 "iv" = (
-/obj/effect/turf_decal/bot_red,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "iy" = (
@@ -1325,6 +1349,14 @@
 	dir = 1
 	},
 /obj/item/clothing/head/helmet/f13/combat/brotherhood/initiate/mk2,
+/obj/item/clothing/suit/armor/f13/combat/brotherhood/initiate/mk2,
+/obj/item/clothing/head/helmet/f13/combat/brotherhood/initiate/mk2,
+/obj/item/clothing/head/helmet/f13/combat/brotherhood/initiate/mk2,
+/obj/item/clothing/head/helmet/f13/combat/brotherhood/initiate/mk2,
+/obj/item/clothing/head/helmet/f13/combat/brotherhood/initiate/mk2,
+/obj/item/clothing/suit/armor/f13/combat/brotherhood/initiate/mk2,
+/obj/item/clothing/suit/armor/f13/combat/brotherhood/initiate/mk2,
+/obj/item/clothing/suit/armor/f13/combat/brotherhood/initiate/mk2,
 /obj/item/clothing/suit/armor/f13/combat/brotherhood/initiate/mk2,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
@@ -1433,6 +1465,8 @@
 	layer = 2.9
 	},
 /obj/item/stack/ore/blackpowder/fifty,
+/obj/item/stack/ore/blackpowder/fifty,
+/obj/item/stack/ore/blackpowder/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/bos/programs/armory)
 "jw" = (
@@ -1462,6 +1496,7 @@
 	dir = 8
 	},
 /obj/item/inducer/sci,
+/obj/effect/turf_decal/bot_red,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
 "jI" = (
@@ -1480,6 +1515,11 @@
 	},
 /obj/item/gun/energy/laser/wattz,
 /obj/item/gun/energy/laser/wattz/magneto,
+/obj/item/gun/energy/laser/pistol,
+/obj/item/gun/energy/laser/pistol,
+/obj/item/gun/energy/laser/pistol,
+/obj/item/gun/energy/laser/pistol,
+/obj/effect/turf_decal/bot_red,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
 "jM" = (
@@ -1593,6 +1633,12 @@
 	layer = 2.9
 	},
 /obj/item/stack/ore/blackpowder/fifty,
+/obj/structure/table{
+	layer = 2.9
+	},
+/obj/structure/table{
+	layer = 2.9
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/den/programs/armory)
 "kG" = (
@@ -1612,32 +1658,27 @@
 /area/awaymission/vr/bos/deathmatch/blue)
 "kQ" = (
 /obj/structure/rack,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 8
-	},
-/obj/item/gun/ballistic/automatic/bozar,
-/obj/item/gun/ballistic/automatic/m1garand/oldglory,
-/obj/item/gun/ballistic/automatic/m1garand/republicspride,
-/obj/item/gun/ballistic/automatic/marksman/sniper/gold,
-/obj/item/gun/ballistic/automatic/rangemaster/scoped/high,
-/obj/item/gun/ballistic/revolver/colt357/lucky,
-/obj/item/gun/ballistic/rifle/mag/varmint/ratslayer,
+/obj/effect/turf_decal/bot_red,
+/obj/item/inducer/sci,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "kR" = (
 /obj/structure/rack,
-/obj/item/gun/energy/laser/pistol,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
-/obj/item/gun/energy/laser/wattz,
-/obj/item/gun/energy/laser/wattz/magneto,
-/obj/item/gun/ballistic/rifle/hobo/lasmusket,
-/obj/item/gun/ballistic/rifle/hobo/plasmacaster,
+/obj/effect/turf_decal/bot_red,
 /obj/item/gun/energy/laser/plasma/glock,
-/obj/item/gun/energy/laser/plasma/glock/extended,
+/obj/item/gun/energy/laser/plasma/glock,
 /obj/item/gun/energy/laser/plasma/pistol,
-/obj/item/gun/energy/laser/plasma/carbine,
+/obj/item/gun/energy/laser/plasma/pistol,
+/obj/item/gun/energy/laser/plasma/pistol,
+/obj/item/gun/energy/laser/plasma/glock/extended,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "kS" = (
@@ -1837,6 +1878,8 @@
 /obj/structure/table{
 	layer = 2.9
 	},
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/bos/programs/armory)
 "lR" = (
@@ -1844,7 +1887,11 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
 	},
-/obj/item/gun/energy/laser/scatter,
+/obj/item/gun/ballistic/automatic/m72,
+/obj/item/gun/ballistic/automatic/m72,
+/obj/item/gun/energy/laser/wattz2k/extended,
+/obj/item/gun/energy/laser/wattz2k/extended,
+/obj/effect/turf_decal/bot_red,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
 "lT" = (
@@ -1868,6 +1915,11 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
+/obj/item/storage/box/medicine/stimpaks/superstimpaks50,
+/obj/item/storage/box/medicine/stimpaks/stimpaks50,
+/obj/item/storage/belt/utility/full/engi,
+/obj/item/storage/belt/utility/full/engi,
+/obj/effect/turf_decal/bot_red,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
 "lX" = (
@@ -1875,6 +1927,8 @@
 /obj/structure/table{
 	layer = 2.9
 	},
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/den/programs/armory)
 "lY" = (
@@ -1905,31 +1959,22 @@
 /area/awaymission/vr/bos/enclavebunker)
 "md" = (
 /obj/structure/rack,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 8
-	},
-/obj/item/gun/ballistic/automatic/pistol/beretta,
-/obj/item/gun/ballistic/automatic/pistol/deagle,
-/obj/item/gun/ballistic/automatic/pistol/m1911,
-/obj/item/gun/ballistic/automatic/pistol/m1911,
-/obj/item/gun/ballistic/automatic/pistol/mk23,
-/obj/item/gun/ballistic/automatic/pistol/n99,
-/obj/item/gun/ballistic/automatic/pistol/ninemil/maria,
-/obj/item/gun/ballistic/automatic/pistol/ninemil,
-/obj/item/gun/ballistic/automatic/pistol/pistol14,
-/obj/item/gun/ballistic/automatic/pistol/pistol14/compact,
-/obj/item/gun/ballistic/automatic/pistol/pistol22,
-/obj/item/gun/ballistic/automatic/pistol/sig,
-/obj/item/gun/ballistic/automatic/pistol/type17,
-/obj/item/gun/ballistic/automatic/hobo/zipgun,
-/obj/item/gun/ballistic/revolver,
-/obj/item/gun/ballistic/revolver/colt357,
-/obj/item/gun/ballistic/automatic/pistol/n99,
-/obj/item/gun/ballistic/revolver/m29,
-/obj/item/gun/ballistic/revolver/m29/snub,
-/obj/item/gun/ballistic/revolver/police,
-/obj/item/gun/ballistic/revolver/revolver45,
-/obj/item/gun/ballistic/revolver/thatgun,
+/obj/effect/turf_decal/bot_red,
+/obj/item/gun/ballistic/automatic/assault_carbine,
+/obj/item/gun/ballistic/automatic/assault_carbine,
+/obj/item/gun/ballistic/automatic/assault_carbine,
+/obj/item/gun/ballistic/automatic/marksman,
+/obj/item/gun/ballistic/automatic/marksman,
+/obj/item/gun/ballistic/automatic/smg/smg22,
+/obj/item/gun/ballistic/automatic/smg/smg22,
+/obj/item/gun/ballistic/automatic/smg/smg10mm,
+/obj/item/gun/ballistic/automatic/smg/smg10mm,
+/obj/item/gun/ballistic/shotgun/automatic/combat/neostead,
+/obj/item/gun/ballistic/shotgun/automatic/combat/neostead,
+/obj/item/gun/ballistic/shotgun/police,
+/obj/item/gun/ballistic/shotgun/police,
+/obj/item/gun/ballistic/automatic/m72,
+/obj/item/gun/ballistic/automatic/m72,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "me" = (
@@ -1942,28 +1987,15 @@
 /area/awaymission/vr/bos/enclavebunker)
 "mh" = (
 /obj/structure/rack,
+/obj/item/integrated_circuit_printer/upgraded,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
-/obj/item/gun/ballistic/automatic/shotgun/riot,
-/obj/item/gun/ballistic/revolver/caravan_shotgun,
-/obj/item/gun/ballistic/revolver/grenadelauncher,
-/obj/item/gun/ballistic/revolver/hobo/pepperbox,
-/obj/item/gun/ballistic/revolver/widowmaker,
-/obj/item/gun/ballistic/rifle/hunting,
-/obj/item/gun/ballistic/rifle/hunting/paciencia,
-/obj/item/gun/ballistic/rifle/hunting/remington,
-/obj/item/gun/ballistic/rifle/mag/antimateriel,
-/obj/item/gun/ballistic/rifle/mag/varmint,
-/obj/item/gun/ballistic/rifle/mosin,
-/obj/item/gun/ballistic/rifle/repeater/brush,
-/obj/item/gun/ballistic/rifle/repeater/cowboy,
-/obj/item/gun/ballistic/shotgun/automatic/combat/auto5,
-/obj/item/gun/ballistic/shotgun/automatic/combat/citykiller,
-/obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever,
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead,
-/obj/item/gun/ballistic/shotgun/hunting,
-/obj/item/gun/ballistic/shotgun/police,
+/obj/item/storage/box/medicine/stimpaks/superstimpaks50,
+/obj/item/storage/box/medicine/stimpaks/stimpaks50,
+/obj/item/storage/belt/utility/full/engi,
+/obj/item/storage/belt/utility/full/engi,
+/obj/effect/turf_decal/bot_red,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "mi" = (
@@ -1984,10 +2016,6 @@
 /obj/effect/turf_decal/caution/stand_clear,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/awaymission/vr/bos/casino)
-"mq" = (
-/obj/item/ammo_casing/shotgun/executioner,
-/turf/open/floor/pod,
 /area/awaymission/vr/bos/casino)
 "ms" = (
 /obj/effect/decal/fakelattice,
@@ -2107,6 +2135,8 @@
 /obj/structure/table{
 	layer = 2.9
 	},
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/bos/programs/armory)
 "np" = (
@@ -2114,9 +2144,15 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
 	},
-/obj/item/gun/energy/laser/aer9,
 /obj/item/gun/energy/laser/aer14,
 /obj/item/gun/energy/laser/aer12,
+/obj/item/gun/energy/laser/scatter,
+/obj/item/gun/energy/laser/aer9,
+/obj/item/gun/energy/laser/aer9,
+/obj/item/gun/energy/laser/aer9,
+/obj/item/gun/energy/laser/wattz2k,
+/obj/item/gun/energy/laser/wattz2k,
+/obj/effect/turf_decal/bot_red,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
 "nv" = (
@@ -2126,25 +2162,7 @@
 	icon_state = "reddirtyfull"
 	},
 /area/awaymission/vr/bos/enclavebunker)
-"nx" = (
-/mob/living/simple_animal/hostile/ghoul/wyomingghost{
-	desc = "A happily proud Enclave commander, mutated and boiled alive by the forced evolutionary virus. His armor looks to be sunken into his flesh.";
-	faction = list("wastebot");
-	health = 1500;
-	maxHealth = 1500;
-	name = "Commander Dirsk";
-	speak = list("For the Enclave!","Long live America!","Die, mutie!","AAAAAGGH!!","AUGUHGHHH!");
-	speak_chance = 10;
-	speed = -1;
-	unarmed_attack_speed = 2
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "reddirtyfull"
-	},
-/area/awaymission/vr/bos/enclavebunker)
 "ny" = (
-/obj/effect/turf_decal/bot_red,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
@@ -2187,6 +2205,8 @@
 /obj/structure/table{
 	layer = 2.9
 	},
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/den/programs/armory)
 "nW" = (
@@ -2206,28 +2226,12 @@
 /area/awaymission/vr/bos/casino)
 "ob" = (
 /obj/structure/rack,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 8
-	},
-/obj/item/gun/ballistic/automatic/assault_carbine,
-/obj/item/gun/ballistic/automatic/assault_rifle,
-/obj/item/gun/ballistic/automatic/assault_rifle/infiltrator,
-/obj/item/gun/ballistic/automatic/autopipe,
-/obj/item/gun/ballistic/automatic/hobo/destroyer,
-/obj/item/gun/ballistic/automatic/m1carbine,
-/obj/item/gun/ballistic/automatic/m1carbine/compact,
-/obj/item/gun/ballistic/automatic/m1garand,
-/obj/item/gun/ballistic/automatic/m1garand/sks,
-/obj/item/gun/ballistic/automatic/marksman,
-/obj/item/gun/ballistic/automatic/marksman/policerifle,
-/obj/item/gun/ballistic/automatic/marksman/sniper,
-/obj/item/gun/ballistic/automatic/r84,
-/obj/item/gun/ballistic/automatic/rangemaster,
-/obj/item/gun/ballistic/automatic/rangemaster/scoped,
-/obj/item/gun/ballistic/automatic/rangemaster/scoped/mid,
-/obj/item/gun/ballistic/automatic/service,
-/obj/item/gun/ballistic/automatic/service/r82,
-/obj/item/gun/ballistic/automatic/type93,
+/obj/effect/turf_decal/bot_red,
+/obj/item/gun/energy/laser/plasma,
+/obj/item/gun/energy/laser/plasma,
+/obj/item/gun/energy/laser/plasma,
+/obj/item/gun/energy/laser/plasma/carbine,
+/obj/item/gun/energy/laser/plasma/carbine,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "of" = (
@@ -2251,17 +2255,15 @@
 	},
 /area/awaymission/vr/bos/casino)
 "om" = (
+/obj/effect/turf_decal/bot_red,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
 /obj/structure/rack,
-/obj/item/gun/ballistic/automatic/smg/smg22,
-/obj/item/gun/ballistic/automatic/smg/greasegun,
-/obj/item/gun/ballistic/automatic/smg/uzi,
-/obj/item/gun/ballistic/automatic/smg/mp5,
-/obj/item/gun/ballistic/automatic/smg/p90,
-/obj/item/gun/ballistic/automatic/smg/smg10mm,
-/obj/item/gun/ballistic/automatic/smg/thompson,
+/obj/item/gun/energy/laser/plasma/caster,
+/obj/item/gun/energy/laser/plasma/caster,
+/obj/item/encencminigunbal4mm,
+/obj/item/minigunpackbal5mm,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "on" = (
@@ -2283,18 +2285,9 @@
 	},
 /area/awaymission/vr/bos/enclavebunker)
 "ox" = (
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
+/obj/machinery/gear_painter,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/holodeck/den/programs/medical)
+/area/holodeck/bos/programs/armory)
 "oE" = (
 /obj/structure/frame/machine,
 /turf/open/floor/f13{
@@ -2600,11 +2593,8 @@
 /turf/open/indestructible/ground/inside/dirt,
 /area/awaymission/vr/bos/enclavebunker)
 "rf" = (
-/obj/effect/turf_decal/bot_red,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 4
-	},
-/turf/open/floor/holofloor/plating,
+/obj/machinery/gear_painter,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/den/programs/armory)
 "rg" = (
 /obj/structure/chair/wood{
@@ -2700,18 +2690,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/bos/programs/armory)
 "rW" = (
-/obj/structure/rack,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 9
 	},
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
+/obj/structure/rack,
 /obj/item/stock_parts/cell/ammo/ecp,
 /obj/item/stock_parts/cell/ammo/ecp,
 /obj/item/stock_parts/cell/ammo/ecp,
@@ -2720,6 +2702,32 @@
 /obj/item/stock_parts/cell/ammo/ecp,
 /obj/item/stock_parts/cell/ammo/ecp,
 /obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
 /obj/item/stock_parts/cell/ammo/ec,
 /obj/item/stock_parts/cell/ammo/ec,
 /obj/item/stock_parts/cell/ammo/ec,
@@ -2822,15 +2830,17 @@
 /turf/open/floor/plasteel/darkblue,
 /area/awaymission/vr/bos/deathmatch/blue)
 "sz" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/twohanded/sledgehammer/supersledge,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 5
 	},
 /obj/item/melee/powered/ripper,
-/obj/item/gun/ballistic/revolver/ballisticfist,
-/obj/item/gun/ballistic/revolver/single_shotgun,
+/obj/item/melee/powered/ripper/prewar,
+/obj/item/melee/powered/ripper,
+/obj/item/melee/powered/ripper,
+/obj/item/melee/powered/ripper/prewar,
+/obj/item/melee/powered/ripper/prewar,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
 "sB" = (
@@ -2860,12 +2870,20 @@
 /turf/open/floor/circuit,
 /area/awaymission/vr/public/deathmatch)
 "sN" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/storage/belt/utility/full,
 /obj/effect/turf_decal/stripes/red/line,
 /obj/item/storage/bag/ammo,
 /obj/item/storage/backpack/explorer,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
 /obj/item/storage/bag/chemistry,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/den/programs/armory)
@@ -2873,18 +2891,10 @@
 /turf/open/floor/plasteel/dark,
 /area/awaymission/vr/bos/deathmatch/blue)
 "sS" = (
-/obj/structure/rack,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 9
 	},
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
+/obj/structure/rack,
 /obj/item/stock_parts/cell/ammo/ecp,
 /obj/item/stock_parts/cell/ammo/ecp,
 /obj/item/stock_parts/cell/ammo/ecp,
@@ -2893,6 +2903,32 @@
 /obj/item/stock_parts/cell/ammo/ecp,
 /obj/item/stock_parts/cell/ammo/ecp,
 /obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
 /obj/item/stock_parts/cell/ammo/ec,
 /obj/item/stock_parts/cell/ammo/ec,
 /obj/item/stock_parts/cell/ammo/ec,
@@ -2906,13 +2942,6 @@
 "sT" = (
 /turf/open/floor/plasteel/dark,
 /area/awaymission/vr/bos/deathmatch)
-"ta" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
-/area/awaymission/vr/bos/casino)
 "td" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -3460,7 +3489,9 @@
 	name = "Training Ground";
 	req_one_access_txt = null
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "xd" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3612,8 +3643,9 @@
 /turf/open/floor/plating,
 /area/awaymission/vr/public/deathmatch)
 "ya" = (
-/turf/open/indestructible/ground/outside/desert,
-/area/awaymission/vr/den)
+/obj/item/storage/box/medicine/stimpaks/stimpaks50,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/holodeck/bos/programs/medical)
 "yi" = (
 /obj/effect/decal/fakelattice,
 /obj/structure/fluff/railing{
@@ -3627,7 +3659,9 @@
 /area/awaymission/vr/bos/deathmatch/blue)
 "yk" = (
 /obj/structure/chair/stool/retro/black,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/den)
 "yl" = (
 /obj/machinery/computer/holodeck/virtual{
@@ -3637,7 +3671,9 @@
 	offline_program = /area/holodeck/den/programs/offline;
 	program_type = /area/holodeck/den/programs
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/den)
 "yr" = (
 /obj/structure/closet/crate,
@@ -3656,7 +3692,9 @@
 	offline_program = /area/holodeck/den/programs/offline;
 	program_type = /area/holodeck/den/programs
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/den)
 "yu" = (
 /obj/effect/turf_decal/stripes/line,
@@ -3715,10 +3753,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/deathmatch/rooms/armory)
-"ze" = (
-/obj/effect/decal/cleanable/greenglow/radioactive,
-/turf/open/indestructible/ground/inside/subway,
-/area/awaymission/vr/bos/enclavebunker)
 "zh" = (
 /obj/structure/table,
 /obj/item/clothing/under/f13/enclave_officer,
@@ -3748,7 +3782,9 @@
 /area/awaymission/vr/bos/casino)
 "zv" = (
 /obj/structure/chair/stool/retro/black,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "zx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3791,7 +3827,9 @@
 	offline_program = /area/holodeck/followers/programs/offline;
 	program_type = /area/holodeck/followers/programs
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "zL" = (
 /turf/open/floor/f13{
@@ -3811,7 +3849,9 @@
 	offline_program = /area/holodeck/followers/programs/offline;
 	program_type = /area/holodeck/followers/programs
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "zU" = (
 /turf/open/floor/holofloor/plating,
@@ -3929,11 +3969,15 @@
 /area/awaymission/vr/bos)
 "AS" = (
 /obj/effect/landmark/vr_spawn/den,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/den)
 "AU" = (
 /obj/effect/landmark/vr_spawn/followers,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "AV" = (
 /obj/structure/rack,
@@ -3946,7 +3990,9 @@
 /area/awaymission/vr/bos/casino)
 "AY" = (
 /obj/structure/chair/f13chair2,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "Bb" = (
 /obj/effect/landmark/vr_spawn,
@@ -4115,7 +4161,9 @@
 "Cp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/vr_spawn/den,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/den)
 "Cu" = (
 /turf/open/floor/holofloor/plating,
@@ -4126,10 +4174,6 @@
 /area/awaymission/vr/bos/enclavebunker)
 "CC" = (
 /turf/closed/indestructible/f13,
-/area/awaymission/vr/bos/casino)
-"CD" = (
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/carpet/green,
 /area/awaymission/vr/bos/casino)
 "CG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4156,7 +4200,9 @@
 /area/awaymission/vr/bos/enclavebunker)
 "CR" = (
 /obj/structure/table,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "CU" = (
 /obj/effect/holodeck_effect/mobspawner{
@@ -4290,7 +4336,9 @@
 /area/awaymission/vr/public/deathmatch)
 "Eq" = (
 /obj/machinery/teleport/hub,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/den)
 "Eu" = (
 /turf/open/floor/circuit/red,
@@ -4356,7 +4404,9 @@
 /obj/structure/table/glass,
 /obj/item/paper_bin,
 /obj/item/pen,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "EU" = (
 /obj/machinery/light/floor,
@@ -4463,7 +4513,9 @@
 /area/awaymission/vr/bos/casino)
 "FP" = (
 /obj/machinery/teleport/station,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "FR" = (
 /obj/structure/frame/computer{
@@ -4498,7 +4550,9 @@
 /area/awaymission/vr/public)
 "Gd" = (
 /obj/structure/table/glass,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "Gk" = (
 /obj/machinery/teleport/station,
@@ -4581,16 +4635,7 @@
 	},
 /area/awaymission/vr/bos/enclavebunker)
 "GU" = (
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
+/obj/item/storage/box/medicine/stimpaks/superstimpaks50,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/bos/programs/medical)
 "GZ" = (
@@ -4642,7 +4687,9 @@
 	},
 /area/awaymission/vr/bos/enclavebunker)
 "Hq" = (
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "Hr" = (
 /turf/open/floor/plasteel/darkred/corner{
@@ -4673,7 +4720,9 @@
 /obj/structure/chair/office/light{
 	dir = 4
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "HG" = (
 /obj/machinery/door/window,
@@ -4700,7 +4749,9 @@
 /area/awaymission/vr/bos/casino)
 "HU" = (
 /obj/structure/chalkboard,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkdirtysolid"
+	},
 /area/awaymission/vr/followers)
 "HY" = (
 /obj/structure/closet/crate,
@@ -5856,12 +5907,20 @@
 /turf/open/floor/plasteel/darkblue/corner,
 /area/awaymission/vr/public/deathmatch)
 "Rg" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/storage/belt/utility/full,
 /obj/effect/turf_decal/stripes/red/line,
 /obj/item/storage/bag/ammo,
 /obj/item/storage/backpack/explorer,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
+/obj/item/storage/bag/chemistry,
 /obj/item/storage/bag/chemistry,
 /turf/open/floor/holofloor/plating,
 /area/holodeck/bos/programs/armory)
@@ -6340,12 +6399,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/awaymission/vr/bos/enclavebunker)
-"Va" = (
-/obj/item/ammo_casing/a762,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/carpet/green,
-/area/awaymission/vr/bos/casino)
 "Vc" = (
 /obj/item/chair,
 /turf/open/indestructible/ground/inside/subway,
@@ -6396,10 +6449,6 @@
 /obj/effect/vr_clean_master,
 /turf/closed/indestructible/riveted,
 /area/awaymission/vr/public/deathmatch/red)
-"Vr" = (
-/obj/effect/decal/cleanable/greenglow/radioactive,
-/turf/open/indestructible/ground/inside/subway,
-/area/awaymission/vr/bos/enclavebunker)
 "Vv" = (
 /obj/structure/debris/v3,
 /turf/open/floor/carpet/green,
@@ -7001,11 +7050,6 @@
 	dir = 4
 	},
 /area/awaymission/vr/public/deathmatch)
-"ZU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/carpet/green,
-/area/awaymission/vr/bos/casino)
 "ZW" = (
 /turf/open/floor/plasteel/red,
 /area/awaymission/vr/public/deathmatch)
@@ -11902,13 +11946,13 @@ Zi
 xD
 xD
 cb
-gN
+NK
 jL
 lV
-ny
+gN
 ny
 rW
-Qy
+ox
 xD
 GZ
 GZ
@@ -12677,7 +12721,7 @@ GJ
 GJ
 EY
 GU
-Vp
+ya
 Vp
 Vp
 xD
@@ -14433,7 +14477,7 @@ rb
 rb
 ma
 Qh
-nx
+ku
 Qh
 KT
 ow
@@ -14737,8 +14781,8 @@ cq
 cq
 cq
 wj
-ya
-ya
+EA
+EA
 AS
 Cp
 DR
@@ -14994,12 +15038,12 @@ cq
 cq
 cq
 wB
-ya
-ya
-ya
+EA
+EA
+EA
 Gv
-ya
-ya
+EA
+EA
 Gv
 Gv
 aL
@@ -15251,13 +15295,13 @@ cq
 cq
 cq
 wj
-ya
-ya
-ya
-ya
+EA
+EA
+EA
+EA
 Gv
-ya
-ya
+EA
+EA
 Gv
 aL
 iC
@@ -15509,13 +15553,13 @@ cq
 cq
 wj
 yk
-ya
-ya
-ya
-ya
-ya
-ya
-ya
+EA
+EA
+EA
+EA
+EA
+EA
+EA
 aL
 iC
 Mx
@@ -15766,10 +15810,10 @@ cq
 cq
 wj
 yl
-ya
-ya
-ya
-ya
+EA
+EA
+EA
+EA
 Eq
 Fe
 Gv
@@ -16023,10 +16067,10 @@ cD
 cD
 aL
 aL
-ya
-ya
-ya
-ya
+EA
+EA
+EA
+EA
 aL
 aL
 aL
@@ -16279,11 +16323,11 @@ cJ
 cJ
 cJ
 wj
-ya
-ya
-ya
-ya
-ya
+EA
+EA
+EA
+EA
+EA
 EA
 EA
 EA
@@ -16536,10 +16580,10 @@ cJ
 cJ
 cJ
 wB
-ya
-ya
-ya
-ya
+EA
+EA
+EA
+EA
 yk
 EC
 EA
@@ -16793,10 +16837,10 @@ cJ
 cJ
 cJ
 wj
-ya
-ya
-ya
-ya
+EA
+EA
+EA
+EA
 yk
 EI
 EA
@@ -17051,9 +17095,9 @@ cJ
 cJ
 wj
 yk
-ya
-ya
-ya
+EA
+EA
+EA
 yk
 EI
 EA
@@ -17271,7 +17315,7 @@ Qh
 jB
 ma
 rb
-Vr
+oM
 oL
 rT
 rb
@@ -17308,9 +17352,9 @@ cJ
 cJ
 wj
 ys
-ya
-ya
-ya
+EA
+EA
+EA
 yk
 EI
 EA
@@ -18045,7 +18089,7 @@ ma
 rb
 rb
 rT
-ze
+oM
 oL
 Wb
 RU
@@ -19102,9 +19146,9 @@ iv
 kR
 mh
 om
-rf
+iv
 sS
-gV
+rf
 iC
 yF
 yF
@@ -19872,7 +19916,7 @@ ep
 iz
 iz
 mw
-ox
+oK
 oK
 oK
 oK
@@ -20366,7 +20410,7 @@ jx
 SY
 oL
 qA
-ze
+oM
 us
 VW
 Wb
@@ -20877,7 +20921,7 @@ Ls
 us
 UP
 Wb
-hP
+oM
 SB
 rT
 rb
@@ -23703,7 +23747,7 @@ rt
 Si
 Sm
 xr
-ZU
+uP
 uP
 xr
 Sm
@@ -24190,7 +24234,7 @@ PG
 uP
 uP
 uP
-ZU
+uP
 uP
 uP
 Yr
@@ -24202,7 +24246,7 @@ St
 St
 tB
 St
-dn
+Si
 Sm
 xV
 uP
@@ -24979,7 +25023,7 @@ Yr
 Oi
 Yr
 Yr
-CD
+Yr
 ex
 UF
 Wf
@@ -25214,7 +25258,7 @@ zx
 Yr
 rQ
 uP
-Va
+te
 uP
 uP
 KL
@@ -25509,7 +25553,7 @@ fD
 dR
 uP
 uP
-CD
+Yr
 xV
 Mf
 uP
@@ -25739,7 +25783,7 @@ Oi
 Yr
 Si
 as
-cA
+fD
 Si
 St
 ga
@@ -25758,7 +25802,7 @@ Si
 Si
 uj
 fD
-CD
+Yr
 uP
 Yr
 Yr
@@ -28299,7 +28343,7 @@ vB
 Ya
 vB
 mQ
-dn
+Si
 Oi
 uP
 uP
@@ -28850,7 +28894,7 @@ uP
 iy
 uP
 Si
-ZU
+uP
 Ua
 vl
 pD
@@ -29836,7 +29880,7 @@ CC
 St
 St
 St
-dn
+Si
 xd
 GB
 ZJ
@@ -29845,7 +29889,7 @@ Sx
 Yr
 uP
 Ru
-ta
+zx
 Si
 St
 St
@@ -31129,7 +31173,7 @@ zx
 zx
 Yr
 uP
-CD
+Yr
 Si
 Si
 St
@@ -31157,7 +31201,7 @@ Yr
 uP
 rQ
 St
-dn
+Si
 zx
 uP
 Yr
@@ -31911,7 +31955,7 @@ Yr
 Si
 St
 pM
-mq
+vo
 St
 Si
 zx
@@ -33214,7 +33258,7 @@ Yr
 uP
 Yr
 Si
-ta
+zx
 XI
 Pq
 Mb
@@ -33450,7 +33494,7 @@ Kp
 Yr
 uP
 Yr
-CD
+Yr
 pP
 ij
 IF
@@ -33732,7 +33776,7 @@ Yr
 Yr
 Yr
 hZ
-CD
+Yr
 uP
 Yr
 rg
@@ -33952,7 +33996,7 @@ Si
 Si
 Sm
 xr
-ZU
+uP
 uP
 xr
 Mf
