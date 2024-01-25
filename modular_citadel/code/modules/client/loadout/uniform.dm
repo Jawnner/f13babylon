@@ -521,6 +521,27 @@
 /datum/gear/uniform/bathrobe
 	name = "bathrobe"
 	path = /obj/item/clothing/under/misc/bathrobe
+
+/datum/gear/uniform/goner_red
+	name = "utility uniform, red"
+	cost = 1
+	path = /obj/item/clothing/under/f13/goner/red
+
+/datum/gear/uniform/goner_green
+	name = "utility uniform, green"
+	cost = 1
+	path = /obj/item/clothing/under/f13/goner/green
+
+/datum/gear/uniform/goner_blue
+	name = "utility uniform, blue"
+	cost = 1
+	path = /obj/item/clothing/under/f13/goner/blue
+
+/datum/gear/uniform/goner_yellow
+	name = "utility uniform, yellow"
+	cost = 1
+	path = /obj/item/clothing/under/f13/goner/yellow
+
 /*
 /datum/gear/uniform/kimono
 	name = "Kimono"
@@ -595,6 +616,11 @@
 /datum/gear/uniform/mercgorka
 	name = "old gorka suit"
 	path = /obj/item/clothing/under/syndicate/gorka
+	cost = 2
+
+/datum/gear/uniform/mercpadded
+	name = "urban mercenary uniform"
+	path = /obj/item/clothing/under/syndicate/mercpadded
 	cost = 2
 
 //CHINA
@@ -805,6 +831,12 @@
 	cost = 1
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_SKIRTS
 
+/datum/gear/uniform/skirt/tact
+	name = "tacticool combat skirt"
+	path = /obj/item/clothing/under/f13/legskirt/tact
+	cost = 1
+	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_SKIRTS
+
 /datum/gear/uniform/skirt/swept
 	name = "swept skirt"
 	path = /obj/item/clothing/under/dress/skirt/swept
@@ -948,6 +980,12 @@
 /datum/gear/uniform/wasteland/whitelegs
 	name = "White legs outfit"
 	path = /obj/item/clothing/under/f13/whitelegs
+	cost = 1
+	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
+
+/datum/gear/uniform/wasteland/cowpoke
+	name = "cowpoke outfit"
+	path = /obj/item/clothing/under/f13/cowpoke
 	cost = 1
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
 

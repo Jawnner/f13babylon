@@ -1660,7 +1660,7 @@ Records disabled until a use for them is found
 								var/mob/dead/new_player/player_mob = parent.mob
 								player_mob.new_player_panel()
 						else
-							to_chat(user, "<font color='red'>Invalid name. Your name should be at least 2 and at most [MAX_NAME_LEN] characters long. It may only contain the characters A-Z, a-z, -, ' and .</font>")
+							to_chat(user, "<font color='red'>Invalid name. Your name should be at least 2 and at most [MAX_NAME_LEN] characters long. It may only contain the characters A-Z, a-z, 0-9, and certain symbols.</font>")
 
 				if("age")
 					var/new_age = input(user, "Choose your character's age:\n([AGE_MIN]-[AGE_MAX])", "Character Preference") as num|null
@@ -2095,7 +2095,7 @@ Records disabled until a use for them is found
 							if((!S.ckeys_allowed) || (S.ckeys_allowed.Find(user.client.ckey)))
 								snowflake_taur_list[S.name] = path
 					var/new_taur
-					new_taur = input(user, "Choose your character's tauric body:", "Character Preference") as null|anything in snowflake_taur_list
+					new_taur = input(user, "Choose your character's extra bodyparts:", "Character Preference") as null|anything in snowflake_taur_list
 					if(new_taur)
 						features["taur"] = new_taur
 						if(new_taur != "None")
@@ -3091,7 +3091,7 @@ Records disabled until a use for them is found
 	else
 		var/sanitized_name = reject_bad_name(raw_name,namedata["allow_numbers"])
 		if(!sanitized_name)
-			to_chat(user, "<font color='red'>Invalid name. Your name should be at least 2 and at most [MAX_NAME_LEN] characters long. It may only contain the characters A-Z, a-z,[namedata["allow_numbers"] ? ",0-9," : ""] -, ' and .</font>")
+			to_chat(user, "<font color='red'>Invalid name. Your name should be at least 2 and at most [MAX_NAME_LEN] characters long. It may only contain the characters A-Z, a-z, 0-9, and certain symbols.</font>")
 			return
 		else
 			custom_names[name_id] = sanitized_name

@@ -247,7 +247,6 @@
 		/obj/item/gun/energy/laser/aer9 = 4,
 		/obj/item/gun/ballistic/automatic/assault_rifle/assault_carbine = 3,
 		/obj/item/gun/energy/laser/wattz2k = 3,
-		/obj/effect/spawner/bundle/f13/infiltrator = 1,
 		/obj/item/melee/onehanded/knife/bayonet = 10,
 		/obj/item/melee/onehanded/knife/trench = 4,
 		/obj/item/melee/powered/ripper = 3,
@@ -256,17 +255,16 @@
 /obj/effect/spawner/lootdrop/weapons/oldarmyelite
 	name = "weaponspawner old army elite"
 	loot = list(
-		/obj/effect/spawner/bundle/f13/sig = 17,
-		/obj/item/gun/ballistic/shotgun/automatic/combat/citykiller = 17,
-		/obj/effect/spawner/bundle/f13/amr = 17,
-		/obj/item/gun/ballistic/automatic/pistol/pistol14 = 12,
-		/obj/item/gun/energy/laser/aer12 = 10,
-		/obj/effect/spawner/bundle/f13/combat_rifle = 6,
-		/obj/effect/spawner/bundle/f13/bozar = 5,
-		/obj/item/gun/ballistic/automatic/lmg/m1919 = 2,
-		/obj/item/twohanded/sledgehammer/supersledge = 5,
+		/obj/item/gun/ballistic/shotgun/automatic/combat/citykiller = 19,
+		/obj/effect/spawner/bundle/f13/amr = 19,
+		/obj/item/gun/ballistic/automatic/pistol/pistol14 = 14,
+		/obj/item/gun/energy/laser/aer12 = 12,
+		/obj/effect/spawner/bundle/f13/combat_rifle = 8,
+		/obj/effect/spawner/bundle/f13/bozar = 7,
+		/obj/item/gun/ballistic/automatic/lmg/m1919 = 4,
+		/obj/item/twohanded/sledgehammer/supersledge = 7,
 		/obj/item/melee/powerfist = 5,
-		/obj/item/twohanded/thermic_lance = 2,
+		/obj/item/twohanded/thermic_lance = 3,
 		)
 
 /obj/effect/spawner/lootdrop/weapons/collectors
@@ -307,7 +305,8 @@
 	loot = list(
 		/obj/item/gun/ballistic/automatic/m72 = 10,
 		/obj/item/gun/ballistic/revolver/m29/peacekeeper = 10,
-		/obj/item/encminigunpack = 10,
+		/obj/item/gun/ballistic/automatic/pistol/deagle/elcapitan = 10,
+		/obj/item/gun/energy/laser/plasma/caster = 10,
 		)
 
 
@@ -344,7 +343,7 @@
 		/obj/item/ammo_box/c45 = 15,
 		/obj/item/ammo_box/shotgun/slug = 15,
 		/obj/item/stock_parts/cell/ammo/ec = 15,
-		/obj/item/ammo_box/a556mm = 15,
+		/obj/item/ammo_box/a556mmbox = 15,
 		/obj/item/ammo_box/a762mm = 10,
 		/obj/item/ammo_box/a762mmbox = 10,
 		/obj/item/ammo_box/magazine/m556mm/extended/empty = 8,
